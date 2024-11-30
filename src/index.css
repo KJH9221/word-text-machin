@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  body {
+    background-color: white;
+  }
+  
+  .container {
+    max-width: none;
+    padding: 0;
+  }
+}
